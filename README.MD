@@ -44,3 +44,4 @@
 
 ## General resources :book:
 
+* [Getting ORE catapult data in Power BI](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/get-ore-data.MD "Getting ORE Catapult data - Power BI")
