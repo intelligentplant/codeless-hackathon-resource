@@ -23,7 +23,7 @@ The measurements available on each well are:
 | flowing_thp_prod | Flowing top hole pressure | barg |
 | shut_in_thp | Shut in top hole pressure | barg |
 
-Thus, to obtain daily readings of oil, gas and water produced by a well 1 for 1988, we’d enter the following parameters into the Industrial App Store Connect for Power BI.
+Thus, to obtain daily readings of oil, gas and water produced by Well 1 for 1988, we’d enter the following parameters into the Industrial App Store Connect for Power BI.
 
 ![](images/NorthBraeTags02.png)
 
