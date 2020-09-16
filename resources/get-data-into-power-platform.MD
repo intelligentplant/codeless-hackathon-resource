@@ -25,3 +25,10 @@ Follow the simple steps below to get process data into Power BI Desktop. Below s
 Repeat the above steps if you wish to load more data sets into the report.
 
 ![Industrial App Store Connector - Functions - Get Data](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-load-data-in.jpg)
+
+## Power Automate :zap:
+
+1. Navigate to [Microsoft Power Autoamte](https://flow.microsoft.com/). Log in if required.
+2. Hit *Create* on the left hand side menu and choose an *Instant Flow* or a *Scheduled Flow*.
+
+![Industrial App Store Connector - Autoamte - GGetting started](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-automate-getting-started.gif)
