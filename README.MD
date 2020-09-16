@@ -30,6 +30,7 @@
 
 * [**Challenge Statement**](https://www.theogtc.com/media/3859/challenge-3-final.pdf "Challenge Statement - Oil & Gas Authority")
 * [**Help Sheet**](https://www.theogtc.com/media/3859/challenge-3-final.pdf "Help Sheet - Oil & Gas Authority")<br />Overview of North Brae Oil Field with some getting started hints.
+* [**Data guide**](resources/oga-dataset-explained.md "North Brae Dataset explained")<br />Brief set of instructions on querying the OGA historian.
 * [**Wikipedia: Brae Oil Field**](https://en.wikipedia.org/wiki/Brae_oilfield "Wikipedia: Brae Oil Field - Oil & Gas Authority")<br /> General information about Brae Oil Field assets and production.
 * [**OGA: Interactive Map and Tools**](https://www.ogauthority.co.uk/data-centre/interactive-maps-and-tools "Interactive Map and Tools- Oil & Gas Authority")<br />Use the Interactive map to plot physical location of wells.
 
