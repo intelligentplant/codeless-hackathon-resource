@@ -23,7 +23,7 @@ Please refer to [these easy steps](https://github.com/intelligentplant/IAS-Power
 
 | Parameter  | Value                             | Description                                                                                               |
 |------------|-----------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Tag name   | ORE Catapult/Levenmouth/Soe/0-30. | We utilise meta tags to retrieve data from A&E store. More information is available here.                 |
+| Tag name   | ORE Catapult/Levenmouth/Soe/0-30. | We utilise meta tags to retrieve data from A&E store. More information is available [here](https://github.com/intelligentplant/IAS-Power-BI-connector#using-alarm--evnet-meta-tags-alarm_clock "Industrial App Store - Using Alarm & Event Meta Tags").                 |
 | Start Data | *-30d                             | You can enter relative or absolute dates. Use the following format for absolute dates `2020-08-01T00:00Z` |
 | End Date   | *                                 | You can enter relative or absolute dates. Use the following format for absolute dates `2020-08-01T00:00Z` |
 | Points     | 1                                 | This is not applicable, but needs a value.                                                                |
@@ -32,5 +32,9 @@ Please refer to [these easy steps](https://github.com/intelligentplant/IAS-Power
 The query should result into a similar result seen below.
 
 ![Start Industrial App Store Connector](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-challange-two-get-ae-ORE-data.jpg)
+
+## SCADA data
+
+Please refer to the [**tag list**](http://appstore.intelligentplant.com/nuget/downloads/OgtcHack20/ORE-TagAndAlarmList.xlsx "Tag & Alarm List - Catapult Offshore Renewable Energy") provided by ORE Catapult and the guide [here](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/get-data-into-power-platform.MD#power-bi-chart_with_upwards_trend "IAS - Getting data into Power BI") on how to get process data into Power BI.
 
 ## Good luck :v:
