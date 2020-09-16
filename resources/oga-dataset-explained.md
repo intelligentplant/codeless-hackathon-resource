@@ -35,3 +35,4 @@ Thus, to obtain daily readings of oil, gas and water produced by Well 1 for 1988
 | Function | Interp | Interpolated data, this means that if no underlying data has been recorded, an interpolated value is returned. |
 | Interval | 1d | 1 day |
 
+## Good luck :v:
