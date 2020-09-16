@@ -7,7 +7,7 @@
 > Modelling pitch system behaviour with high frequency data.
 
 * [**Challenge Statement**](https://www.theogtc.com/media/3836/challenge-one-final.pdf "Challenge Statement - Catapult Offshore Renewable Energy")
-* **Help sheet** (pending) <br />Overview of the Levenmouth Wind Turbine with some getting started hints.
+* [**Help sheet**](resources/Challenge 1 - Info Pack.pdf) <br />Overview of the Levenmouth Wind Turbine with some getting started hints.
 * [**Tag list**](http://appstore.intelligentplant.com/nuget/downloads/OgtcHack20/ORE-TagAndAlarmList.xlsx "Tag list - Catapult Offshore Renewable Energy")<br />Complete list of tags on asset.
 
 ## Challenge Two :trophy:
@@ -17,7 +17,7 @@
 > Learning from turbine alarms integrated with SCADA.
 
 * [**Challenge Statement**](https://www.theogtc.com/media/3837/challenge-two-final.pdf "Challenge Statement - Catapult Offshore Renewable Energy")
-* **Help sheet** (pending)<br />Overview of the Levenmouth Wind Turbine with some getting started hints.
+* [**Help sheet**](resources/Challenge 2 - Info Pack.pdf) <br />Overview of the Levenmouth Wind Turbine with some getting started hints.
 * [**Tag & Alarm List**](http://appstore.intelligentplant.com/nuget/downloads/OgtcHack20/ORE-TagAndAlarmList.xlsx "Tag & Alarm List - Catapult Offshore Renewable Energy")<br />Complete list of tags and alarms on asset.
 * [**Data guide**](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/challange-two-alarm-access.MD "Challange two - getting data")<br />Brief set of instructions on how to get A&E data into Microsoft Power BI :feet:.
 * [**Using Alarm & Event Meta Tags :alarm_clock:**](https://github.com/intelligentplant/IAS-Power-BI-connector#using-alarm--evnet-meta-tags-alarm_clock "Using Alarm & Event Meta Tags - Catapult Offshore Renewable Energy")<br />Industrial App Store enables users to interact with A&E data using special predefined meta tags. You can easily create Bad Actor report or even extract Sequence of Events data for further analysis or simple display purposes. See [here](https://github.com/intelligentplant/IAS-Power-BI-connector#using-alarm--evnet-meta-tags-alarm_clock "Using Alarm & Event Meta Tags - Catapult Offshore Renewable Energy") how to formulate a request the A&E data.
