@@ -45,5 +45,5 @@
 ## General resources :book:
 
 * [Industrial App Store Power Platform data functions](https://github.com/intelligentplant/IAS-Power-BI-connector#supported-actions-functions "IAS Power Platform functions")
-  > A brief description of available data functions that  enables Microsoft’s powerful analytics and visualizations to be applied to real-time and historical process data.
-* [Getting ORE catapult data in Power BI](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/get-ore-data.MD "Getting ORE Catapult data - Power BI")
+  > A brief description of available data functions that enable Microsoft’s powerful analytics and visualizations to be applied to real-time and historical process data.
+* [Getting data into Power Platform](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/get-data-into-power-platform.MD#get-data-into-power-platform "Industrial App Store Connector - Getting data into Power Platform")
