@@ -30,7 +30,7 @@
 
 * [**Challenge Statement**](https://www.theogtc.com/media/3859/challenge-3-final.pdf "Challenge Statement - Oil & Gas Authority")
 * [**Help Sheet**](resources/Challenge3-HelpSheet.pdf "Help Sheet - OGA")<br />Overview of North Brae Oil Field with some getting started hints.
-* [**Data guide**](resources/oga-dataset-explained.md)<br />Getting started on the North Brae dataset.
+* [**Data Guide**](resources/oga-dataset-explained.md)<br />Getting started on the North Brae dataset.
 * [**Wikipedia: Brae Oil Field**](https://en.wikipedia.org/wiki/Brae_oilfield "Wikipedia: Brae Oil Field - Oil & Gas Authority")<br /> General information about Brae Oil Field assets and production.
 * [**OGA: Interactive Map and Tools**](https://www.ogauthority.co.uk/data-centre/interactive-maps-and-tools "Interactive Map and Tools- Oil & Gas Authority")<br />Use the Interactive map to plot physical location of wells.
 
@@ -43,7 +43,7 @@
 * [**Challenge Statement**](https://www.theogtc.com/media/3839/challenge-four-final.pdf "Challenge Statement - Ithaca Energy")
 * [**Help Sheet**](resources/Challenge4HelpSheet.pdf "Help Sheet - Ithaca Energy") <br />Overview of the Alba North Sea Oil Platform with some getting started hints.
 * [**Alba Process Diagram**](https://appstore.intelligentplant.com/gestalt#OGTC%202020%5CE.%20Alba-Overview.PnID "Alba Process Diagram - Ithaca Energy")<br />Data Linked Process Diagram
-* [**Data guide**](resources/Challenge4-DataGuide.md)<br />Getting started on the Alba dataset.
+* [**Data Guide**](resources/Challenge4-DataGuide.md)<br />Getting started on the Alba dataset.
 
 ## General resources :book:
 
