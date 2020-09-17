@@ -56,6 +56,15 @@ For example, if we want to obtain daily readings of oil, gas and water produced 
 | Function | Interp | Interpolated data, this means that if no underlying data has been recorded, an interpolated value is returned. |
 | Interval | 1d | 1 day |
 
+
+## How to get data in Power Automate :zap:
+
+Please follow a step by step guide [here](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/get-data-into-power-platform.MD#power-automate-zap "Industrial App Store - Get data into Power Automate"). Make sure you know which tag names you want to interogate and please use the following value for qualified data source name (this is a qualified data source name for on-site historian).
+
+```text
+FCBB05262EADC0B147746EE6DFB2B3EA5C272C33C2C5E3FE8F473D85529461CA.OGA North Sea Production
+```
+
 ## More Info...
 
 * [**Get data into Power Platform**](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/get-data-into-power-platform.MD)<br/> General instructions on how to use Industrial App Store connectors for Power BI, Power Apps, Power Automate Flow and Power Virtual Agent.

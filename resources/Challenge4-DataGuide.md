@@ -39,6 +39,16 @@ For example, if we wanted to obtain hourly readings of Full Load Current (FLC%) 
 | Function | Interp | Interpolated date, this means an approximated value is derived for the specified interval. |
 | Interval | 1h | 1 hour |
 
+
+## How to get data in Power Automate :zap:
+
+Please follow a step by step guide [here](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/get-data-into-power-platform.MD#power-automate-zap "Industrial App Store - Get data into Power Automate"). Make sure you know which tag names you want to interogate and please use the following value for qualified data source name (this is a qualified data source name for on-site historian).
+
+```text
+7404BBBA5A773C7AC89411978E9B7F415B939B0DBC6B3C5B17AD59251D587B6A.Alba PI Historian
+```
+
+
 ## More Info...
 
 * [**Get data into Power Platform**](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/get-data-into-power-platform.MD)<br/> General instructions on how to use Industrial App Store connectors for Power BI, Power Apps, Power Automate Flow and Power Virtual Agent.
