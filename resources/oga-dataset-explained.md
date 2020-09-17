@@ -23,16 +23,43 @@ The measurements available on each well are:
 | flowing_thp_prod | Flowing top hole pressure | barg |
 | shut_in_thp | Shut in top hole pressure | barg |
 
-Thus, to obtain daily readings of oil, gas and water produced by Well 1 for 1988, we’d enter the following parameters into the Industrial App Store Connect for Power BI.
+
+## How to get data into Power BI
+
+We can interrogate the historian as follows...
+
+### Get the connector
+
+ The connector is certified and distributed by Microsoft with Power BI updates. Click *Get Data* and look for *Industrial App Store* data connector.
+
+![Start Industrial App Store Connector](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-start-connector.gif)
+
+### Log in
+
+Sign in using Microsoft and enter you Hackathon account credentials. 
+
+![Log in Industrial App Store Connector](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-start-connector-log-in.gif)
+
+
+### Select Datasource
+
+From the Navigator, select *OGA North Sea Production*
+
+### Enter Query Parameters
+
+The query parameters will depend on what data you wish to explore. 
+
+For example, if we want to obtain daily readings of oil, gas and water produced by Well 1 for 1989, we’d enter the following parameters into the Industrial App Store Connect for Power BI.
 
 ![](images/NorthBraeTags02.png)
 
 | Parameter | Value | Notes |
 |-----------|-------|-------|
 |Tag Names |  North Brae.1.dry_oil_vol, North Brae.1.gas_vol, North Brae.1.water_vol | Comma separated list of tags |
-| Start Date | 1988-01-01| |
-|End Date | 1989-01-01 | |
+| Start Date | 1989-01-01| |
+|End Date | 1990-01-01 | |
 | Function | Interp | Interpolated data, this means that if no underlying data has been recorded, an interpolated value is returned. |
 | Interval | 1d | 1 day |
+
 
 ## Good luck :v:
