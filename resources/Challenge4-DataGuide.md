@@ -34,9 +34,9 @@ For example, if we wanted to obtain hourly readings of Full Load Current (FLC%) 
 | Parameter | Value | Notes |
 |-----------|-------|-------|
 |Tag Names |  ALB-FLC_K0801A.PV, ALB-FLC_K0801B.PV | Comma separated list of tags |
-| Start Date | *-7d| A relative data notation meaning "now minus 7 days". Alternatively, an explicit date could be used (e.g. "2010-09-15"). |
+| Start Date | *-7d| A relative date notation meaning "now minus 7 days". Alternatively, an explicit date could be used (e.g. "2010-09-15"). |
 |End Date | *| A relative data notation meaning "now". Alternatively, an explicit date could be used (e.g. "2010-09-21").|
-| Function | Interp | Interpolated data, this means an approximated value is derived for the specified interval. |
+| Function | Interp | Interpolated date, this means an approximated value is derived for the specified interval. |
 | Interval | 1h | 1 hour |
 
 ## More Info...

@@ -34,8 +34,8 @@ For example, if we wanted to obtain hourly  Power and Windspeed readings for the
 | Parameter | Value | Notes |
 |-----------|-------|-------|
 |Tag Names |  Iconics DA OPC.P135S1_Site_T01.Turbine.SubIprPrivPwr, Iconics DA OPC.P135S1_Site_T01.Turbine.WindSpeed1 | Comma separated list of tags |
-| Start Date | *-7d| A relative data notation meaning "now minus 7 days". Alternatively, an explicit date could be used (e.g. "2010-09-15"). |
-|End Date | *| A relative data notation meaning "now". Alternatively, an explicit date could be used (e.g. "2010-09-21").|
+| Start Date | *-7d| A relative date notation meaning "now minus 7 days". Alternatively, an explicit date could be used (e.g. "2010-09-15"). |
+|End Date | *| A relative date notation meaning "now". Alternatively, an explicit date could be used (e.g. "2010-09-21").|
 | Function | Interp | Interpolated data, this means an approximated value is derived for the specified interval.|
 | Interval | 1h | 1 hour |
 
