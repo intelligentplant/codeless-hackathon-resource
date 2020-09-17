@@ -23,7 +23,6 @@ The measurements available on each well are:
 | flowing_thp_prod | Flowing top hole pressure | barg |
 | shut_in_thp | Shut in top hole pressure | barg |
 
-
 ## How to get data into Power BI
 
 We can interrogate the historian as follows...
@@ -41,13 +40,9 @@ Sign in using Microsoft and enter you Hackathon account credentials.
 ![Log in Industrial App Store Connector](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-start-connector-log-in.gif)
 
 
-### Select Datasource
-
-From the Navigator, select *OGA North Sea Production*
-
 ### Enter Query Parameters
 
-The query parameters will depend on what data you wish to explore. 
+From the Navigator, select *OGA North Sea Production* and enter the parameters for your your query.
 
 For example, if we want to obtain daily readings of oil, gas and water produced by Well 1 for 1989, we’d enter the following parameters into the Industrial App Store Connect for Power BI.
 
@@ -61,5 +56,9 @@ For example, if we want to obtain daily readings of oil, gas and water produced 
 | Function | Interp | Interpolated data, this means that if no underlying data has been recorded, an interpolated value is returned. |
 | Interval | 1d | 1 day |
 
+## References
+
+* ![Get data into Power Platform](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/get-data-into-power-platform.MD#get-data-into-power-platform)<br/> General instructions on how to use Industrial App Store connectors for Power BI, Power Apps, Power Automate Flow and Power Virtual Agent.
+* ![Industrial App Store Power BI Connector](https://github.com/intelligentplant/IAS-Power-BI-connector)<br/> Detailed documentation on IAS Power BI Connecter.
 
 ## Good luck :v:
