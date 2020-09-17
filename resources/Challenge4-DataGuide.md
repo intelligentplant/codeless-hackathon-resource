@@ -27,7 +27,7 @@ Sign in using Microsoft and enter you Hackathon account credentials.
 
 From the Navigator, select *Alba PI Historian* and enter the parameters for your query.
 
-For example, if we wanted to obtain hourly readings of Full Load Current (FLC%) for Gas Compressors A and B over the past 7 days, we’d enter the following parameters into the Industrial App Store Connect for Power BI.
+For example, if we wanted to obtain hourly readings of Full Load Current (FLC%) for Gas Compressors A and B over the past 7 days, we’d enter the following parameters into the Industrial App Store Data Connector for Power BI.
 
 ![](images/Challenge4DataGuide01.png)
 

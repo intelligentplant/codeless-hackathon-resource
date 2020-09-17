@@ -4,7 +4,7 @@ For this exercise, you will be connecting to ORE Catapult's Edge Historian (a la
 
 * Data is accessible via a “tag” – *a unique identifier for a measurement*.
 
-For a short-list of useful tags, refer to the [Challenge 1 Help Sheet](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/Challenge%201%20-%20Info%20Pack.pdf).
+For a shortlist of useful tags, refer to the [Challenge 1 Help Sheet](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/Challenge%201%20-%20Info%20Pack.pdf).
 
 ## How to get data into Power BI
 
@@ -27,7 +27,7 @@ Sign in using Microsoft and enter you Hackathon account credentials.
 
 From the Navigator, select *Edge Historian* and enter the parameters for your query.
 
-For example, if we wanted to obtain hourly readings of Power and Windspeed readings for the past 7 days, we’d enter the following parameters into the Industrial App Store Connect for Power BI.
+For example, if we wanted to obtain hourly  Power and Windspeed readings for the past 7 days, we’d enter the following parameters into the Industrial App Store Data Connector for Power BI.
 
 ![](images/Challenge1DataGuide01.png)
 
