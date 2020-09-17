@@ -1,4 +1,4 @@
-# Understanding the Alba Dataset
+# Getting started on the Alba Dataset
 
 For this exercise, you will be connecting to an OSI Soft PI Historian (a large database for storing time-series process data) recording live data from the Alba platform.
 
