@@ -17,7 +17,7 @@ The measurements available on each well are:
 |dry_oil_vol  | Oil production | Sm3  |
 |gas_vol      | Gas production | KSm3 |
 |water_vol    | Water produced | Sm3 |
-|choke_size_prod | Production Choke position | mm |
+|choke_size_prod | Production Choke position | % open |
 |fline_press | Flowline pressure | barg |
 | fline_temp | Flowline temperature	| degC |
 | flowing_thp_prod | Flowing top hole pressure | barg |
