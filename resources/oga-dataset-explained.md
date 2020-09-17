@@ -42,7 +42,7 @@ Sign in using Microsoft and enter you Hackathon account credentials.
 
 ### Enter Query Parameters
 
-From the Navigator, select *OGA North Sea Production* and enter the parameters for your your query.
+From the Navigator, select *OGA North Sea Production* and enter the parameters for your query.
 
 For example, if we want to obtain daily readings of oil, gas and water produced by Well 1 for 1989, we’d enter the following parameters into the Industrial App Store Connect for Power BI.
 
@@ -56,7 +56,7 @@ For example, if we want to obtain daily readings of oil, gas and water produced 
 | Function | Interp | Interpolated data, this means that if no underlying data has been recorded, an interpolated value is returned. |
 | Interval | 1d | 1 day |
 
-## References
+## More Info...
 
 * [**Get data into Power Platform**](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/get-data-into-power-platform.MD)<br/> General instructions on how to use Industrial App Store connectors for Power BI, Power Apps, Power Automate Flow and Power Virtual Agent.
 
