@@ -1,4 +1,4 @@
-# Getting started on the North Brae Dataset
+# Getting Started on the North Brae Dataset
 
 The North Brae data set covers measurements (flow, pressure, temperature, etc..) related to 34 subsea wells that were operational between 12 Apr 1988 – 31 Dec 2019. 
 
