@@ -32,3 +32,5 @@ Repeat the above steps if you wish to load more data sets into the report.
 2. Hit *Create* on the left hand side menu and choose an *Instant Flow* or a *Scheduled Flow*.
 
 ![Industrial App Store Connector - Autoamte - GGetting started](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-automate-getting-started.gif)
+
+3. Hit *+New Step*
