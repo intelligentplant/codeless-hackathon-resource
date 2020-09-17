@@ -81,15 +81,15 @@ The query should result into a similar result seen below.
 
 ## How to get data in Power Automate :zap:
 
-Please follow a step by step guide [here]( "Get data into Power Automate"). Make sur eyou know which tag names you want to interogate and please use the following value for qualified data source name (this is a qualified data source name for on-site historian).
+Please follow a step by step guide [here](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/get-data-into-power-platform.MD#power-automate-zap "Industrial App Store - Get data into Power Automate"). Make sure you know which tag names you want to interogate and please use the following value for qualified data source name (this is a qualified data source name for on-site historian).
 
-For process data use
+For **process** data use
 
 ```text
 FBF94704A9C213490B00CFD213C6CDB41653A7E8461EE9AA43871BDD6B4795D2.Edge Historian
 ```
 
-For A&E process data use
+For **A&E** process data use
 
 ```text
 FBF94704A9C213490B00CFD213C6CDB41653A7E8461EE9AA43871BDD6B4795D2.ORE Catapult Alarm Analysis
