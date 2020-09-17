@@ -4,7 +4,7 @@
 
 > Learning from turbine alarms integrated with SCADA.
 
-## Acquiring A&E data
+## How to acquiring A&E data
 
 1. **Start Power BI and open the Industrial App Store Connector**<br />
 The connector is certified and distributed by Microsoft with Power BI updates :fire:. Just click Get data and look for Industrial App Store data connector.
@@ -39,7 +39,7 @@ The query should result into a similar result seen below.
 
 ![Start Industrial App Store Connector](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-challange-two-get-ae-ORE-data.jpg)
 
-## SCADA data
+## How to acquiring SCADA data
 
 Please refer to the [**tag list**](http://appstore.intelligentplant.com/nuget/downloads/OgtcHack20/ORE-TagAndAlarmList.xlsx "Tag & Alarm List - Catapult Offshore Renewable Energy") provided by ORE Catapult and the guide [here](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/get-data-into-power-platform.MD#power-bi-chart_with_upwards_trend "IAS - Getting data into Power BI") on how to get process data into Power BI.
 
@@ -78,6 +78,22 @@ The query should result into a similar result seen below.
 > NOTE: This connects to the source historian on site to retrieve data :fire:. If you used *relative* timestamps in your data query this means your result data set will always be up to date.
 
 ![Start Industrial App Store Connector](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-challange-two-get-process-ORE-data.jpg)
+
+## How to get data in Power Automate :zap:
+
+Please follow a step by step guide [here]( "Get data into Power Automate"). Make sur eyou know which tag names you want to interogate and please use the following value for qualified data source name (this is a qualified data source name for on-site historian).
+
+For process data use
+
+```text
+FBF94704A9C213490B00CFD213C6CDB41653A7E8461EE9AA43871BDD6B4795D2.Edge Historian
+```
+
+For A&E process data use
+
+```text
+FBF94704A9C213490B00CFD213C6CDB41653A7E8461EE9AA43871BDD6B4795D2.ORE Catapult Alarm Analysis
+```
 
 ## Aditional resources
 
