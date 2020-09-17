@@ -10,21 +10,18 @@ For a short-list of useful tags, refer to the [Challenge 3 Help Sheet](https://g
 
 We can interrogate the historian as follows...
 
-### Get the connector
-
- The connector is certified and distributed by Microsoft with Power BI updates. Click *Get Data* and look for *Industrial App Store* data connector.
+1. **Start Power BI and open the Industrial App Store Connector**<br />
+The connector is certified and distributed by Microsoft with Power BI updates :fire:. Just click Get data and look for Industrial App Store data connector.
 
 ![Start Industrial App Store Connector](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-start-connector.gif)
 
-### Log in
-
+2. **Log in**<br />
 Sign in using Microsoft and enter you Hackathon account credentials. 
 
 ![Log in Industrial App Store Connector](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-start-connector-log-in.gif)
 
 
-### Enter Query Parameters
-
+3. **Enter Query Parameters**<br />
 From the Navigator, select *Alba PI Historian* and enter the parameters for your query.
 
 For example, if we wanted to obtain hourly readings of Full Load Current (FLC%) for Gas Compressors A and B over the past 7 days, we’d enter the following parameters into the Industrial App Store Data Connector for Power BI.
@@ -39,6 +36,9 @@ For example, if we wanted to obtain hourly readings of Full Load Current (FLC%) 
 | Function | Interp | Interpolated date, this means an approximated value is derived for the specified interval. |
 | Interval | 1h | 1 hour |
 
+4. **Load data**<br />Hit apply, tick the checkbox next to the function and hit *Load* to start working on the data in Power BI.<br />
+
+> NOTE: This connects to the source historian on site to retrieve data :fire:. If you used *relative* timestamps in your data query this means your result data set will always be up to date.
 
 ## How to get data in Power Automate :zap:
 
