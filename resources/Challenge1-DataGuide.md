@@ -6,7 +6,7 @@ For this exercise, you will be connecting to ORE Catapult's Edge Historian (a la
 
 For a shortlist of useful tags, refer to the [Challenge 1 Help Sheet](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/Challenge%201%20-%20Info%20Pack.pdf).
 
-## How to get data into Power BI
+# How to get data into Power BI
 
 We can interrogate the historian as follows...
 
@@ -40,7 +40,7 @@ For example, if we wanted to obtain hourly  Power and Windspeed readings for the
 
 > NOTE: This connects to the source historian on site to retrieve data :fire:. If you used *relative* timestamps in your data query this means your result data set will always be up to date.
 
-## How to get data in Power Automate :zap:
+# How to get data in Power Automate :zap:
 
 :bulb: You can utilise the pre-defined challange templates found on [Microsoft Power Automate Portal](https://flow.microsoft.com/).
 
@@ -50,12 +50,12 @@ For example, if we wanted to obtain hourly  Power and Windspeed readings for the
 FBF94704A9C213490B00CFD213C6CDB41653A7E8461EE9AA43871BDD6B4795D2.Edge Historian
 ```
 
-## More Info...
+# More Info...
 
 * [**Get data into Power Platform**](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/get-data-into-power-platform.MD)<br/> General instructions on how to use Industrial App Store connectors for Power BI, Power Apps, Power Automate Flow and Power Virtual Agent.
 
 * [**Industrial App Store Power BI Connector**](https://github.com/intelligentplant/IAS-Power-BI-connector)<br/> Detailed documentation on IAS Power BI Connecter.
 
-## Good luck :v:
+# Good luck :v:
 
 Intelligent Plant and Microsoft teams are always here to provide a helping hand if you encountner any technical issues.
