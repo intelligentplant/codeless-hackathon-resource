@@ -81,7 +81,11 @@ The query should result into a similar result seen below.
 
 ## How to get data in Power Automate :zap:
 
-Please follow a step by step guide [here](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/get-data-into-power-platform.MD#power-automate-zap "Industrial App Store - Get data into Power Automate"). Make sure you know which tag names you want to interogate and please use the following value for qualified data source name (this is a qualified data source name for on-site historian).
+- You utilise pre-defined challange templates found on [Microsoft Power Autoamte Portal](https://flow.microsoft.com/).
+
+![Start Industrial App Store Connector](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-automate-flow-templates.jpg)
+
+- Or you can create your own flow by following [this](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/get-data-into-power-platform.MD#power-automate-zap "Industrial App Store - Get data into Power Automate") step by step guide :hourglass_flowing_sand:. For this you'll need to know which tags you want to interogate and the following value for qualified data source name (this is a qualified data source name for on-site historian).
 
 For **process** data use
 
