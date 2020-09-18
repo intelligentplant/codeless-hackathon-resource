@@ -42,7 +42,9 @@ For example, if we wanted to obtain hourly readings of Full Load Current (FLC%) 
 
 ## How to get data in Power Automate :zap:
 
-Please follow a step by step guide [here](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/get-data-into-power-platform.MD#power-automate-zap "Industrial App Store - Get data into Power Automate"). Make sure you know which tag names you want to interogate and please use the following value for qualified data source name (this is a qualified data source name for on-site historian).
+:bulb: You can utilise the pre-defined challange templates found on [Microsoft Power Automate Portal](https://flow.microsoft.com/).
+
+...or you can follow a step by step guide [here](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/get-data-into-power-platform.MD#power-automate-zap "Industrial App Store - Get data into Power Automate"). Make sure you know which tag names you want to interogate and please use the following value for qualified data source name (this is a qualified data source name for on-site historian).
 
 ```text
 7404BBBA5A773C7AC89411978E9B7F415B939B0DBC6B3C5B17AD59251D587B6A.Alba PI Historian
@@ -56,3 +58,5 @@ Please follow a step by step guide [here](https://github.com/intelligentplant/co
 * [**Industrial App Store Power BI Connector**](https://github.com/intelligentplant/IAS-Power-BI-connector)<br/> Detailed documentation on IAS Power BI Connecter.
 
 ## Good luck :v:
+
+Intelligent Plant and Microsoft teams are always here to provide a helping hand if you encountner any technical issues.

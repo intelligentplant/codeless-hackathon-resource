@@ -58,7 +58,9 @@ For example, if we want to obtain daily readings of oil, gas and water produced 
 
 ## How to get data in Power Automate :zap:
 
-Please follow a step by step guide [here](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/get-data-into-power-platform.MD#power-automate-zap "Industrial App Store - Get data into Power Automate"). Make sure you know which tag names you want to interogate and please use the following value for qualified data source name (this is a qualified data source name for on-site historian).
+:bulb: You can utilise the pre-defined challange templates found on [Microsoft Power Automate Portal](https://flow.microsoft.com/).
+
+...or you can follow a step by step guide [here](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/get-data-into-power-platform.MD#power-automate-zap "Industrial App Store - Get data into Power Automate"). Make sure you know which tag names you want to interogate and please use the following value for qualified data source name (this is a qualified data source name for on-site historian).
 
 ```text
 FCBB05262EADC0B147746EE6DFB2B3EA5C272C33C2C5E3FE8F473D85529461CA.OGA North Sea Production
@@ -71,3 +73,5 @@ FCBB05262EADC0B147746EE6DFB2B3EA5C272C33C2C5E3FE8F473D85529461CA.OGA North Sea P
 * [**Industrial App Store Power BI Connector**](https://github.com/intelligentplant/IAS-Power-BI-connector)<br/> Detailed documentation on IAS Power BI Connecter.
 
 ## Good luck :v:
+
+Intelligent Plant and Microsoft teams are always here to provide a helping hand if you encountner any technical issues.
