@@ -3,12 +3,12 @@
 Industrial App Store (IAS) Power Platform connector provides a few functions to make it easier getting process and A&E data into Power Platofrm straight from the source. Although the functions are staight forward you can find more info on them [here](https://github.com/intelligentplant/IAS-Power-BI-connector#supported-actions-functions "IAS Power Platform functions").
 
 - [Get data into Power Platform](#get-data-into-power-platform)
-  - [Power BI :chart_with_upwards_trend:](#power-bi-)
-  - [Power Automate :zap:](#power-automate-️)
+  - [Power BI](#power-bi)
+  - [Power Automate](#power-automate)
     - [Recap](#recap)
   - [Aditional resources](#aditional-resources)
 
-## Power BI :chart_with_upwards_trend:
+## Power BI
 
 Follow the simple steps below to get process data into Power BI Desktop. Below steps assume you are familiar with starting the *Industrial App Store* connector, if no - please check this simple [Getting started](https://github.com/intelligentplant/IAS-Power-BI-connector#getting-started "IAS connector - getting started") guide.
 
@@ -32,7 +32,7 @@ Repeat the above steps if you wish to load more data sets into the report.
 
 ![Industrial App Store Connector - Functions - Get Data](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-load-data-in.jpg)
 
-## Power Automate :zap:
+## Power Automate
 
 In this walkthrough I will connect and retreive value from Oil & Gas Authority data set.
 
