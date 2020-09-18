@@ -81,7 +81,7 @@ The query should result into a similar result seen below.
 
 ## How to get data in Power Automate :zap:
 
-- You utilise pre-defined challange templates found on [Microsoft Power Automate Portal](https://flow.microsoft.com/).
+- You can utilise pre-defined challange templates found on [Microsoft Power Automate Portal](https://flow.microsoft.com/).
 
 ![Start Industrial App Store Connector](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-automate-flow-templates.jpg)
 
@@ -105,6 +105,7 @@ FBF94704A9C213490B00CFD213C6CDB41653A7E8461EE9AA43871BDD6B4795D2.ORE Catapult Al
 * [**Help sheet**]()<br />Overview of the Levenmouth Wind Turbine with some getting started hints.
 * [**Tag & Alarm List**](http://appstore.intelligentplant.com/nuget/downloads/OgtcHack20/ORE-TagAndAlarmList.xlsx "Tag & Alarm List - Catapult Offshore Renewable Energy")<br />Complete list of tags and alarms on asset.
 * [**Using Alarm & Event Meta Tags :alarm_clock:**](https://github.com/intelligentplant/IAS-Power-BI-connector#using-alarm--evnet-meta-tags-alarm_clock "Using Alarm & Event Meta Tags - Catapult Offshore Renewable Energy")<br />Industrial App Store enables users to interact with A&E data using special predefined meta tags. You can easily create Bad Actor report or even extarct Sequence of Events data for further analysis or simple display purposes. See [here](https://github.com/intelligentplant/IAS-Power-BI-connector#using-alarm--evnet-meta-tags-alarm_clock "Using Alarm & Event Meta Tags - Catapult Offshore Renewable Energy") how to formulate a request the A&E data.
+* [**Data response types**](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/ias-pp-automate-data-types.MD "IAS - Data response")<br />See what type of data is returned when a historical or a snapshot data query is perofrmed in Power Automate or Power Apps.
 
 ## Good luck :v:
 
