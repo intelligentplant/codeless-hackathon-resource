@@ -186,3 +186,9 @@ items('Apply_to_each')?['NumericValue']
 :loudspeaker: Data is not persited or stored after the flow is ran. It stays safe and secure on clients network.
 
 Thats it :boom: It's now up to you what you wish to do with it, whether its sending a notification email based on the conditions (un)met or simply fill in a weekly Excel report so it can be reviewed by the management :handshake:.
+
+## Aditional resources
+
+* [**Data response types**](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/ias-pp-automate-data-types.MD "IAS - Data response")
+* [**Using Alarm & Event Meta Tags :alarm_clock:**](https://github.com/intelligentplant/IAS-Power-BI-connector#using-alarm--evnet-meta-tags-alarm_clock "Using Alarm & Event Meta Tags - Catapult Offshore Renewable Energy")<br />Industrial App Store enables users to interact with A&E data using special predefined meta tags. You can easily create Bad Actor report or even extarct Sequence of Events data for further analysis or simple display purposes. See [here](https://github.com/intelligentplant/IAS-Power-BI-connector#using-alarm--evnet-meta-tags-alarm_clock "Using Alarm & Event Meta Tags - Catapult Offshore Renewable Energy") how to formulate a request the A&E data.
+* [**Data response types**](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/ias-pp-automate-data-types.MD "IAS - Data response")<br />See what type of data is returned when a historical or a snapshot data query is perofrmed in Power Automate or Power Apps.
