@@ -2,7 +2,17 @@
 
 Industrial App Store (IAS) Power Platform connector provides a few functions to make it easier getting process and A&E data into Power Platofrm straight from the source. Although the functions are staight forward you can find more info on them [here](https://github.com/intelligentplant/IAS-Power-BI-connector#supported-actions-functions "IAS Power Platform functions").
 
-## Power BI :chart_with_upwards_trend:
+- [Get data into Power Platform](#get-data-into-power-platform)
+  - [Power BI](#power-bi)
+  - [Power Automate](#power-automate)
+    - [Recap](#recap)
+  - [Power Apps](#power-apps)
+    - [Recap](#recap-1)
+  - [Power Virtual Agent](#power-virtual-agent)
+- [:robot:](#)
+  - [Aditional resources](#aditional-resources)
+
+## Power BI
 
 Follow the simple steps below to get process data into Power BI Desktop. Below steps assume you are familiar with starting the *Industrial App Store* connector, if no - please check this simple [Getting started](https://github.com/intelligentplant/IAS-Power-BI-connector#getting-started "IAS connector - getting started") guide.
 
@@ -26,7 +36,7 @@ Repeat the above steps if you wish to load more data sets into the report.
 
 ![Industrial App Store Connector - Functions - Get Data](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-load-data-in.jpg)
 
-## Power Automate :zap:
+## Power Automate
 
 In this walkthrough I will connect and retreive value from Oil & Gas Authority data set.
 
@@ -186,6 +196,55 @@ items('Apply_to_each')?['NumericValue']
 :loudspeaker: Data is not persited or stored after the flow is ran. It stays safe and secure on clients network.
 
 Thats it :boom: It's now up to you what you wish to do with it, whether its sending a notification email based on the conditions (un)met or simply fill in a weekly Excel report so it can be reviewed by the management :handshake:.
+
+## Power Apps
+
+You can use Microsoft Autoamte to create logic that performs one or more tasks when an event occurs in a PowerApp. For example, configure a button that retrieves current wind turbine sensor data, sends an email or meeting request, or creates an online report. You can also use a flow to return data to PowerApps. For example, configure a flow that retrieves current wind turbine rotor temperature from on site historian, and then processes that data by using Flow's built-in actions. You can configure any control in the app to start the flow, which continues to run even if you close PowerApps.
+
+1. Create your application.
+2. Add a button.
+3. Assign a Power Autoamte action to the button on click event.
+   - Highlight the button.
+   - Click Action at the top menu bar.
+   - Select *Power Automate*.
+   - Hit *Create new flow* option.
+
+![Industrial App Store Connector - Apps - Getting started](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-apps-getting-started.jpg)
+
+3. Follow the instructions on how to create flow to get snapshot values in [Power Automate](#Power Automate) section.
+   > Make sureto use *Get Snapshot* function instead of *Get Processed*.
+4. Create an object similar to below to return values back to your Power Autoamte App.
+
+![Industrial App Store Connector - Apps - Getting started](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-apps-flow-response.jpg)
+
+5. Reference returned variables to assign to , for example, text values to display current tag values. The screenshot below shows a formula that calls above created flow and sets a local variable with the result returned by the flow.
+
+![Industrial App Store Connector - Apps - Getting started](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-apps-flow-data-formula.jpg)
+
+6. The text element can reference the variable like so:
+
+![Industrial App Store Connector - Apps - Getting started](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-apps-flow-data-formula-text.jpg)
+
+The resulting app could look similar to this:
+
+A simple applciation for an engineer to retreive current sensor readings from wind turbine SCADA and depending on the values could schedule a maintenence to chekc out high readings.
+
+![Industrial App Store Connector - Apps - Getting started](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-apps-app.gif)
+
+### Recap
+
+- Create an app
+- Assign an Action to a button
+- Create a flow with power Autoamte to retrieve data from on-site data historian and return to your app
+- Update UI controls
+
+:loudspeaker: Data is not persited or stored after the flow is ran. It stays safe and secure on clients network.
+
+That's it :boom: It's now up to you what you wish to do with it, whether its sending a notification email based on the conditions (un)met or simply fill in a weekly report so it can be reviewed by the management :handshake:.
+
+## Power Virtual Agent
+
+# :robot:
 
 ## Aditional resources
 
