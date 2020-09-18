@@ -8,6 +8,8 @@ Industrial App Store (IAS) Power Platform connector provides a few functions to 
     - [Recap](#recap)
   - [Power Apps](#power-apps)
     - [Recap](#recap-1)
+  - [Power Virtual Agent](#power-virtual-agent)
+- [:robot:](#)
   - [Aditional resources](#aditional-resources)
 
 ## Power BI
@@ -239,6 +241,10 @@ A simple applciation for an engineer to retreive current sensor readings from wi
 :loudspeaker: Data is not persited or stored after the flow is ran. It stays safe and secure on clients network.
 
 That's it :boom: It's now up to you what you wish to do with it, whether its sending a notification email based on the conditions (un)met or simply fill in a weekly report so it can be reviewed by the management :handshake:.
+
+## Power Virtual Agent
+
+# :robot:
 
 ## Aditional resources
 
