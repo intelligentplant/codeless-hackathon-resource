@@ -91,6 +91,8 @@ The query should result into a similar result seen below.
 
 - You can utilise pre-defined challange templates found on [Microsoft Power Automate Portal](https://flow.microsoft.com/).
 
+> NOTE: In case the pre-defined flows are missing you can download and import them from [here](https://github.com/intelligentplant/codeless-hackathon-resource/tree/master/resources/automate-flows "IAS - predfined flows"). On my Flows tab hit *Import* and select the zip file you've downloaded.
+
 ![Start Industrial App Store Connector](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-automate-flow-templates.jpg)
 
 - Or you can create your own flow by following [this](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/get-data-into-power-platform.MD#power-automate-zap "Industrial App Store - Get data into Power Automate") step by step guide :hourglass_flowing_sand:. For this you'll need to know which tags you want to interogate and the following value for qualified data source name (this is a qualified data source name for on-site historian).
