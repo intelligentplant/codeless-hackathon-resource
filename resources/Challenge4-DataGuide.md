@@ -6,7 +6,7 @@ For this exercise, you will be connecting to an OSI Soft PI Historian (a large d
 
 For a short-list of useful tags, refer to the [Challenge 3 Help Sheet](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/Challenge4HelpSheet.pdf).
 
-## How to get data into Power BI
+# How to get data into Power BI
 
 We can interrogate the historian as follows...
 
@@ -40,19 +40,23 @@ For example, if we wanted to obtain hourly readings of Full Load Current (FLC%) 
 
 > NOTE: This connects to the source historian on site to retrieve data :fire:. If you used *relative* timestamps in your data query this means your result data set will always be up to date.
 
-## How to get data in Power Automate :zap:
+# How to get data in Power Automate :zap:
 
-Please follow a step by step guide [here](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/get-data-into-power-platform.MD#power-automate-zap "Industrial App Store - Get data into Power Automate"). Make sure you know which tag names you want to interogate and please use the following value for qualified data source name (this is a qualified data source name for on-site historian).
+:bulb: You can utilise the pre-defined challange templates found on [Microsoft Power Automate Portal](https://flow.microsoft.com/).
+
+...or you can follow a step by step guide [here](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/get-data-into-power-platform.MD#power-automate-zap "Industrial App Store - Get data into Power Automate"). Make sure you know which tag names you want to interogate and please use the following value for qualified data source name (this is a qualified data source name for on-site historian).
 
 ```text
 7404BBBA5A773C7AC89411978E9B7F415B939B0DBC6B3C5B17AD59251D587B6A.Alba PI Historian
 ```
 
 
-## More Info...
+# More Info...
 
 * [**Get data into Power Platform**](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/get-data-into-power-platform.MD)<br/> General instructions on how to use Industrial App Store connectors for Power BI, Power Apps, Power Automate Flow and Power Virtual Agent.
 
 * [**Industrial App Store Power BI Connector**](https://github.com/intelligentplant/IAS-Power-BI-connector)<br/> Detailed documentation on IAS Power BI Connecter.
 
-## Good luck :v:
+# Good luck :v:
+
+Intelligent Plant and Microsoft teams are always here to provide a helping hand if you encountner any technical issues.
