@@ -2,7 +2,7 @@
 
 ## Get Snapshot
 
-The snapshot data returned to Power Automate describes the instrument values using the [JSON file format](https://en.wikipedia.org/wiki/JSON). An example data set is shown below: 
+The snapshot data returned to Power Automate describes the instrument values using the [JSON file format](https://en.wikipedia.org/wiki/JSON). An example data set is shown below:
 
 ```json
 {
