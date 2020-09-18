@@ -43,6 +43,8 @@ In this walkthrough I will connect and retreive value from Oil & Gas Authority d
 | Type  | String |                                                                       |
 | Value | FCBB05262EADC0B147746EE6DFB2B3EA5C272C33C2C5E3FE8F473D85529461CA.OGA North Sea Production       | Fully qualified address of the data historian.                        |
 
+>NOTE: you can double click the step name to give a more descriptive name or click the 3 dots and choose *Add a comment* to leave a brief description for this step.
+
 4. **Create tag name variable**<br /> Repeat the above steps with the following parameters:
 
 | Name  | Value  | Note                                                                  |
@@ -50,6 +52,18 @@ In this walkthrough I will connect and retreive value from Oil & Gas Authority d
 | Name  | tag    | Our variable name for later reference will be called *tag*. Feel free to give more descriptive name, like *dryoilvol_tag*. |
 | Type  | String |                                                                       |
 | Value | North Brae.1.dry_oil_vol       | Fully qualified address of the data historian.                        |
+
+>NOTE: you can double click the step name to give a more descriptive name or click the 3 dots and choose *Add a comment* to leave a brief description for this step.
+
+5. **Create tag name variable**<br /> Repeat instructions from step 3 with the following parameters:
+
+| Name  | Value  | Note                                                                  |
+|-------|--------|-----------------------------------------------------------------------|
+| Name  | limit  | Our variable name for later reference will be called *limit*. Feel free to give more descriptive name, like *oil_limit*. |
+| Type  | Integer |                                                                       |
+| Value | 20       | Limit value.                        |
+
+>NOTE: you can double click the step name to give a more descriptive name or click the 3 dots and choose *Add a comment* to leave a brief description for this step.
 
 Once completed it should look something like below:
 
