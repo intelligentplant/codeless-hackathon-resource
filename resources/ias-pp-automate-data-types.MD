@@ -1,6 +1,6 @@
 # Data responses
 
-## Get Snapshot
+## Get Snapshot :watch:
 
 The snapshot data returned to Power Automate describes the instrument values using the [JSON file format](https://en.wikipedia.org/wiki/JSON). An example data set is shown below:
 
@@ -40,7 +40,7 @@ Each entry in the `Values` collection describes a single value for the tag at a 
 For the purpose of this exercise, the remaining fields can be ignored.
 
 
-## Get Historical
+## Get Historical :calendar:
 
 `The historical data returned to Power Automate describes the instrument values using the [JSON file format](https://en.wikipedia.org/wiki/JSON). An example data set is shown below: 
 
