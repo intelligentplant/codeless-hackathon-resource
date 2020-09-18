@@ -57,7 +57,7 @@ Once completed it should look something like below:
 
 5. **Add Industrial App Store data retrieval step**<br />Hit *+New Step* and look for *Industrial App Store*. Once found, select the connector and choose *Get Processed* action.
 
-![Industrial App Store Connector - Autoamte - Getting started](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-automate-set-variables.jpg)
+![Industrial App Store Connector - Autoamte - Getting started](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-automate-getprocessed.gif)
 
 >NOTE: you can double click the step name to give a more descriptive name or click the 3 dots and choose *Add a comment* to leave a brief description for this step.
 
