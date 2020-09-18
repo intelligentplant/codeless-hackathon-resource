@@ -81,7 +81,7 @@ The query should result into a similar result seen below.
 
 ## How to get data in Power Automate :zap:
 
-- You utilise pre-defined challange templates found on [Microsoft Power Autoamte Portal](https://flow.microsoft.com/).
+- You utilise pre-defined challange templates found on [Microsoft Power Automate Portal](https://flow.microsoft.com/).
 
 ![Start Industrial App Store Connector](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-automate-flow-templates.jpg)
 
