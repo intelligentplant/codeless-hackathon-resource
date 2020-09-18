@@ -1,5 +1,13 @@
 # Challenge Two - Data Guide:trophy:
 
+- [Challenge Two - Data Guide:trophy:](#challenge-two---data-guide)
+  - [Catapult Offshore Renewable Energy](#catapult-offshore-renewable-energy)
+  - [How to acquiring A&E data](#how-to-acquiring-ae-data)
+  - [How to acquiring SCADA data](#how-to-acquiring-scada-data)
+  - [How to get data in Power Automate :zap:](#how-to-get-data-in-power-automate-️)
+  - [Aditional resources](#aditional-resources)
+  - [Good luck :v:](#good-luck-️)
+
 ## Catapult Offshore Renewable Energy
 
 > Learning from turbine alarms integrated with SCADA.
