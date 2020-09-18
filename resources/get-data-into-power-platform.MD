@@ -67,16 +67,120 @@ In this walkthrough I will connect and retreive value from Oil & Gas Authority d
 
 Once completed it should look something like below:
 
-![Industrial App Store Connector - Autoamte - Getting started](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-automate-set-variables.jpg)
+![Industrial App Store Connector - Autoamte - Getting started](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-automate-set-variables-3.jpg)
 
-5. **Add Industrial App Store data retrieval step**<br />Hit *+New Step* and look for *Industrial App Store*. Once found, select the connector and choose *Get Processed* action.
+6. **Add Industrial App Store data retrieval step**<br />Hit *+New Step* and look for *Industrial App Store*. Once found, select the connector and choose *Get Processed* action.
 
 ![Industrial App Store Connector - Autoamte - Getting started](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-automate-getprocessed.gif)
 
 >NOTE: you can double click the step name to give a more descriptive name or click the 3 dots and choose *Add a comment* to leave a brief description for this step.
 
-5. **Sign in**<br />Sign in using your Microsoft credentials provided to you earlier today.
+7. **Sign in**<br />Sign in using your Microsoft credentials provided to you earlier today.
 
 > NOTE: you'll only need to do this once per flow. The same connection credentials can be re-used in other flows
 
 ![Industrial App Store Connector - Autoamte - Log in](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-automate-login.gif)
+
+8. **Fill in parameters**<br />Fill in the required parameters with the following values:
+
+| Name             | Value          | Note                                                        |
+|------------------|----------------|-------------------------------------------------------------|
+| Data source name | dsn - variable | From Dynamic content dropdown choose dsn variable property. |
+| Tag to query     | tag - variable | From Dynamic content dropdown choose tag variable property. |
+| Start time       | 2001-01-01     | The absolute or relative query start time.                  |
+| End time         | 2001-03-01     | The absolute or relative query end time.                    |
+| Data function    | AVG            |                                                             |
+| Sample interval  | 1d             |                                                             |
+
+![Industrial App Store Connector - Autoamte - Log in](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-automate-getprocessed-params.gif)
+
+The historical data returned to Power Automate describes the instrument values using the [JSON file format](https://en.wikipedia.org/wiki/JSON). An example data set is shown below: 
+
+```json
+{
+    "Edge Historian (ORE Catapult - LDT-INTELPLANT)": {
+        "Iconics DA OPC.P135S1_Site_T01.Turbine.AmbTemp_DegC": {
+            "TagName": "Iconics DA OPC.P135S1_Site_T01.Turbine.AmbTemp_DegC",
+            "DisplayType": "TrailingEdge",
+            "Values": [
+                {
+                    "IsNumeric": true,
+                    "TagName": "Iconics DA OPC.P135S1_Site_T01.Turbine.AmbTemp_DegC",
+                    "UtcSampleTime": "2020-09-08T04:20:40Z",
+                    "NumericValue": 13.89999,
+                    "TextValue": "13.89999",
+                    "Status": "Good",
+                    "Unit": "degC",
+                    "Notes": null,
+                    "Error": null,
+                    "HasError": false
+                },
+                {
+                    "IsNumeric": true,
+                    "TagName": "Iconics DA OPC.P135S1_Site_T01.Turbine.AmbTemp_DegC",
+                    "UtcSampleTime": "2020-09-09T04:20:40Z",
+                    "NumericValue": 13.89999,
+                    "TextValue": "13.89999",
+                    "Status": "Good",
+                    "Unit": "degC",
+                    "Notes": null,
+                    "Error": null,
+                    "HasError": false
+                },
+				// -- remaining values removed for brevity --
+            ]
+        }
+    }
+}
+```
+
+The data is indexed by data source name (`Edge Historian (ORE Catapult - LDT-INTELPLANT)`) and then tag name (`Iconics DA OPC.P135S1_Site_T01.Turbine.AmbTemp_DegC`). The entry for each tag contains the following fields:
+
+- `TagName` - the display name of the tag.
+- `DisplayType` - provides a hint describing how lines between individual values should be drawn when visualizing the data on a chart.
+- `Values` - a list of tag values.
+
+Each entry in the `Values` collection describes a single value for the tag at a specific point in time. Although there are several fields defined on each value, the fields that we are most interested in are:
+
+- `UtcSampleTime` - the UTC timestamp for the sample, specified in ISO 8601 format.
+- `NumericValue` - the numerical value recorded by the instrument.
+- `Status` - the quality status associated with the value (`Good`, `Bad`, or `Uncertain`). The status will generally be `Good` unless the physical instrument has been diagnosed with a fault.
+- `Unit` - the unit of measure for the value.
+
+For the purpose of this exercise, the remaining fields can be ignored.
+
+9. **Loop through data**<br /> Create a new step called *Apply to each*. We will use this to loop through each *Numerical value* in the historical data set and check against a limit variable we created in step *5*.
+
+To loop through the response returned by your data query enter the following *expression* as your loop input. Click *Add dynamic content* and select *Expression*.
+
+```text
+body('Get_data')?[variables('dsn')]?[variables('oilvol_tag')]?['Values']
+```
+
+Hit *Update* to confirm your entry
+
+![Industrial App Store Connector - Autoamte - Log in](https://intelligentplant.com/datasheets/powerplatform/resources/ias-pp-automate-loop-values.jpg)
+
+10. **Add a condition**. Now isnide your loop click *Add an action* and search for *Condition* step. Once found click on it to add to your flow.
+
+* Add another expression that represents current numerical value in the loop to be compared to the limit value. 
+
+Current numerical value expression
+
+```text
+items('Apply_to_each')?['NumericValue']
+```
+
+* Choose *is greater than or equal to* operation
+* Reference limit variable name from the *Dynamic content dropdown*
+
+### Recap
+
+- Declare variables so they can be re-used further down in the flow
+- Establish a connection to Industrial App Store
+- Query historical data
+- Extract historical data
+
+:loudspeaker: Data is not persited or stored after the flow is ran. It stays safe and secure on clients network.
+
+Thats it :boom: It's now up to you what you wish to do with it, whether its sending a notification email based on the conditions (un)met or simply fill in a weekly Excel report so it can be reviewd by the management :handshake:.
