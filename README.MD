@@ -42,6 +42,7 @@
 > Building a Greenhouse Gas Smart Meter to reduce emissions.
 
 * [**Challenge Statement**](https://www.theogtc.com/media/3839/challenge-four-final.pdf "Challenge Statement - Ithaca Energy")
+* [**Challenge Overview Video**](https://youtu.be/S8JuChFvp90) <br />Video provider overview and context of the problem.
 * [**Help Sheet**](resources/Challenge4HelpSheet.pdf "Help Sheet - Ithaca Energy") <br />Overview of the Alba North Sea Oil Platform with some getting started hints.
 * [**Alba Process Diagram**](https://appstore.intelligentplant.com/gestalt#OGTC%202020%5CE.%20Alba-Overview.PnID "Alba Process Diagram - Ithaca Energy")<br />Data Linked Process Diagram
 * [**Data Guide**](resources/Challenge4-DataGuide.md)<br />Getting started on the Alba dataset.
