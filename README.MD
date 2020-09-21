@@ -57,6 +57,8 @@
 
 ## Publications
 
+General publications of the connector usage :newspaper:.
+
 - [Intro](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-march-2019-feature-summary/#IntelligentPlantsIndustrialAppStore)
 - [Power BI - Connecting industrial historians to Microsoft Power BI. One connector to get them all…](https://community.powerbi.com/t5/Community-Blog/Connecting-industrial-historians-to-Microsoft-Power-BI-One/ba-p/942200)
 - [Power BI and Alarm & Event Bad Actors](https://community.powerbi.com/t5/Community-Blog/Power-BI-and-Alarm-amp-Event-Bad-Actors/ba-p/953020)
