@@ -4,7 +4,7 @@ For this exercise, you will be connecting to an OSI Soft PI Historian (a large d
 
 * Data is accessible via a “tag” – *a unique identifier for a measurement*.
 
-For a short-list of useful tags, refer to the [Challenge 3 Help Sheet](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/Challenge4HelpSheet.pdf).
+For a short-list of useful tags, refer to the [Challenge 4 Help Sheet](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/Challenge4HelpSheet.pdf).
 
 # How to get data into Power BI
 
