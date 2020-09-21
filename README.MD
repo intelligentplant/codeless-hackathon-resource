@@ -10,6 +10,7 @@
 * [**Help Sheet**](resources/Challenge%201%20-%20Info%20Pack.pdf "Help Sheet - ORE Catapult") <br />Overview of the Levenmouth Wind Turbine with some getting started hints.
 * [**Data Guide**](resources/Challenge1-DataGuide.md)<br />Getting started on the ORE Catapult dataset.
 * [**Tag list**](http://appstore.intelligentplant.com/nuget/downloads/OgtcHack20/ORE-TagAndAlarmList.xlsx "Tag list - Catapult Offshore Renewable Energy")<br />Complete list of tags on asset.
+* [**Data Linked Tag List**](https://appstore.intelligentplant.com/gestalt/#OGTC%202020\ORE-C%20Complete%20Tag%20List.PnID) <br />Complete list of tags on asset along with current tag value. Right click to quickly trend over time.
 
 ## Challenge Two :trophy:
 
@@ -22,6 +23,7 @@
 * [**Tag & Alarm List**](http://appstore.intelligentplant.com/nuget/downloads/OgtcHack20/ORE-TagAndAlarmList.xlsx "Tag & Alarm List - Catapult Offshore Renewable Energy")<br />Complete list of tags and alarms on asset.
 * [**Data Guide**](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/challange-two-alarm-access.MD "Challange two - getting data")<br />Brief set of instructions on how to get A&E data into Microsoft Power BI :feet:.
 * [**Using Alarm & Event Meta Tags :alarm_clock:**](https://github.com/intelligentplant/IAS-Power-BI-connector#using-alarm--event-meta-tags-alarm_clock "Using Alarm & Event Meta Tags - Catapult Offshore Renewable Energy")<br />Industrial App Store enables users to interact with A&E data using special predefined meta tags. You can easily create Bad Actor report or even extract Sequence of Events data for further analysis or simple display purposes. See [here](https://github.com/intelligentplant/IAS-Power-BI-connector#using-alarm--evnet-meta-tags-alarm_clock "Using Alarm & Event Meta Tags - Catapult Offshore Renewable Energy") how to formulate a request the A&E data.
+* [**Data Linked Tag List**](https://appstore.intelligentplant.com/gestalt/#OGTC%202020\ORE-C%20Complete%20Tag%20List.PnID) <br />Complete list of tags on asset along with current tag value. Right click to quickly trend over time.
 
 ## Challenge Three :trophy:
 
@@ -54,6 +56,7 @@
 * [Industrial App Store Power Platform data functions](https://github.com/intelligentplant/IAS-Power-BI-connector#supported-actions-functions "IAS Power Platform functions")
   > A brief description of available data functions that enable Microsoft’s powerful analytics and visualizations to be applied to real-time and historical process data.
 * [**Data response types**](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/ias-pp-automate-data-types.MD "IAS - Data response")<br />See what type of data is returned when a historical or a snapshot data query is perofrmed in Power Automate or Power Apps.
+* [**Industrial App Store Data Connector Issues**](resources/asc-issues.MD)<br />Some self-help notes on solving Power BI and/or Industrial App Store Data Connector problems.
 
 ## Publications
 
