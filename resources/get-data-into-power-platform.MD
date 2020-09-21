@@ -8,9 +8,9 @@ Industrial App Store (IAS) Power Platform connector provides a few functions to 
     - [Recap](#recap)
   - [Power Apps](#power-apps)
     - [Recap](#recap-1)
-  - [Power Virtual Agent](#power-virtual-agent)
-- [:robot:](#)
+  - [Power Virtual Agent (PVA)](#power-virtual-agent-pva)
   - [Aditional resources](#aditional-resources)
+  - [Publications](#publications)
 
 ## Power BI
 
@@ -242,11 +242,20 @@ A simple applciation for an engineer to retreive current sensor readings from wi
 
 That's it :boom: It's now up to you what you wish to do with it, whether its sending a notification email based on the conditions (un)met or simply fill in a weekly report so it can be reviewed by the management :handshake:.
 
-## Power Virtual Agent
+## Power Virtual Agent (PVA)
 
-# :robot:
+To get data into PVA using PVA topic studio please refer to Power Autoamte guide as it utilises exactly the same user interface/method :robot:.
 
 ## Aditional resources
 
 * [**Using Alarm & Event Meta Tags :alarm_clock:**](https://github.com/intelligentplant/IAS-Power-BI-connector#using-alarm--evnet-meta-tags-alarm_clock "Using Alarm & Event Meta Tags - Catapult Offshore Renewable Energy")<br />Industrial App Store enables users to interact with A&E data using special predefined meta tags. You can easily create Bad Actor report or even extarct Sequence of Events data for further analysis or simple display purposes. See [here](https://github.com/intelligentplant/IAS-Power-BI-connector#using-alarm--evnet-meta-tags-alarm_clock "Using Alarm & Event Meta Tags - Catapult Offshore Renewable Energy") how to formulate a request the A&E data.
 * [**Data response types**](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/ias-pp-automate-data-types.MD "IAS - Data response")<br />See what type of data is returned when a historical or a snapshot data query is perofrmed in Power Automate or Power Apps.
+
+## Publications
+
+- [Intro](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-march-2019-feature-summary/#IntelligentPlantsIndustrialAppStore)
+- [Power BI - Connecting industrial historians to Microsoft Power BI. One connector to get them all…](https://community.powerbi.com/t5/Community-Blog/Connecting-industrial-historians-to-Microsoft-Power-BI-One/ba-p/942200)
+- [Power BI and Alarm & Event Bad Actors](https://community.powerbi.com/t5/Community-Blog/Power-BI-and-Alarm-amp-Event-Bad-Actors/ba-p/953020)
+- [Alarm Analysis Dashboard design insights](https://community.powerbi.com/t5/Data-Stories-Gallery/Alarm-Analysis-Dashboard-design-insights/m-p/1091669)
+- [Power Autoamte - Connecting industrial historians to Microsoft Power Automate. One connector to get them all… ](https://powerusers.microsoft.com/t5/Power-Automate-Community-Blog/Connecting-industrial-historians-to-Microsoft-Power-Automate-One/ba-p/525552)
+- [An Industrial virtual engineer - How to trust future innovations now](https://powerusers.microsoft.com/t5/News-Announcements/bg-p/PowerAppsBlog)
