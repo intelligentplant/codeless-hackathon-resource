@@ -56,7 +56,7 @@
 * [Industrial App Store Power Platform data functions](https://github.com/intelligentplant/IAS-Power-BI-connector#supported-actions-functions "IAS Power Platform functions")
   > A brief description of available data functions that enable Microsoft’s powerful analytics and visualizations to be applied to real-time and historical process data.
 * [**Data response types**](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/ias-pp-automate-data-types.MD "IAS - Data response")<br />See what type of data is returned when a historical or a snapshot data query is perofrmed in Power Automate or Power Apps.
-* [**Industrial App Store Data Connector Issues**](resources/asc-issues.MD)<br />Some self-help notes on solving Power BI and/or Industrial App Store Data Connector problems.
+* [**Industrial App Store Data Connector Issues**](https://github.com/intelligentplant/codeless-hackathon-resource/blob/master/resources/asc-issues.md)<br />Some self-help notes on solving Power BI and/or Industrial App Store Data Connector problems.
 
 ## Publications
 
